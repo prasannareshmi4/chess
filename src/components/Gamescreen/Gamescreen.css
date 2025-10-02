@@ -1,0 +1,101 @@
+.game-container {
+  display: flex;
+  height: 570px;
+  width: 1270px;
+  background: #111;
+  color: white;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #1c1c1c;
+  padding: 1rem;
+}
+
+.logo {
+  color: #4ade80;
+}
+
+.sidebar ul {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  cursor: pointer;
+  color: #bbb;
+}
+
+.sidebar ul li.active,
+.sidebar ul li:hover {
+  background: #2a2a2a;
+  border-radius: 6px;
+  color: #fff;
+}
+
+/* Game Main */
+.game-main {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.scorebar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.board-container {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+}
+
+.chessboard {
+  flex: 2;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden; /* hides extra image parts */
+}
+
+.chessboard img {
+  width: 500px;
+  height: 450px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+
+.chat-panel {
+  flex: 1;
+  background: #222;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box {
+  flex: 1;
+  background: #111;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  overflow-y: auto;
+}
+
+.chat-panel input {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
