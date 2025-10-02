@@ -52,16 +52,3 @@
   border-radius: 10px;
   background: #222;
 }
-
-@media (max-width: 768px) {
-  .landing-container {
-    flex-direction: column;
-    text-align: center;
-  }
-  .landing-text {
-    max-width: 100%;
-  }
-  .landing-text h1 {
-    font-size: 2rem;
-  }
-}
