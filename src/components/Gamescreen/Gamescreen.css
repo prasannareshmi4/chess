@@ -99,3 +99,15 @@
   border: none;
   outline: none;
 }
+
+
+/* Responsive */
+@media (max-width: 900px) {
+  .gamescreen-container {
+    flex-direction: column;
+  }
+  .game-info {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
